@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BrightByte Tech Help</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background: #1e90ff;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    header .star {
+      font-size: 2em;
+      color: gold;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #1e90ff;
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    form {
+      background: #e6f2ff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    form button {
+      background: #1e90ff;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background: #0d6efd;
+    }
+
+    .contact-info {
+      margin-top: 20px;
+      font-size: 1em;
+    }
+
+    .contact-info p {
+      margin: 5px 0;
+    }
+
+    .note {
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="star">⭐</div>
+    <h1>BrightByte Tech Help</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome!</h2>
+      <p>Need help with tech? You’re in the right place. Send me a message below and I’ll get back to you as soon as I can!</p>
+    </section>
+
+    <section>
+      <h2>Contact Me</h2>
+      <form action="mailto:BrightByteTechHelp@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="Name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="Email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="Message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <p>Phone: 0412 345 678</p>
+        <p class="note">(Please note that responses could take up to 24 hours ⭐)</p>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
